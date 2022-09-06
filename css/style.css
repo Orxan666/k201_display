@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.boxes {
+    width: 80%;
+    margin: 30px auto;
+    min-height: 70vh;
+    border: 2px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+    /* ------------------ */
+    /* X oxu uzre hereket */
+    /* justify-content: flex-start; default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* ------------------ */
+    /* Y Oxu uzre hereket */
+    /* align-items: flex-start; default */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* ----------------- */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; default */
+    /* flex-direction: row-reverse; */
+}
+
+.boxes .box1,
+.box2,
+.box3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+
+.boxes .box1 {
+    background-color: blue;
+}
+
+.boxes .box2 {
+    background-color: rgb(255, 0, 0);
+}
+
+.boxes .box3 {
+    background-color: rgb(9, 255, 0);
+}
